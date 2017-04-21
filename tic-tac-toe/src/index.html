@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|VT323" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+<style>
+  body {
+    background-color: #2E2B2B;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    font: 24px 'VT323', monospace;
+    color: white;
+  }
+
+  ol, ul {
+    padding-left: 30px;
+  }
+
+  .center {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+  }
+
+  .status {
+    font: 24px 'VT323', monospace;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  /*td:after {
+    clear: both;
+    content: "";
+  }*/
+
+  .square {
+    background: #A5E9E1;
+    border: 1px solid #2E2B2B;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bungee Shade', cursive;
+    line-height: 60px;
+    height: 70px;
+    width: 70px;
+    margin-right: -10px;
+    margin-top: -5px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .square:focus {
+    outline: none;
+  }
+
+  .navbar {
+    background: white;
+    margin-bottom: 10px;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .game-info {
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+
+</style>
+
+<div id="game"></div>
+<script src="/app/bundle.js"></script>
+</body>
+</html>
